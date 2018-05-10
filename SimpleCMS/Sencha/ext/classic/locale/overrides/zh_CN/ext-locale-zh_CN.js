@@ -63,7 +63,11 @@ Ext.define("Ext.locale.zh_CN.form.field.Base", {
 // changing the msg text below will affect the LoadMask
 Ext.define("Ext.locale.zh_CN.view.AbstractView", {
     override: "Ext.view.AbstractView",
-    loadingText: "讀取中..."
+    loadingText: "读取中..."
+});
+Ext.define("Ext.locale.zh_CN.window.Window", {
+    override: "Ext.window.Window",
+    closeToolText: "关闭窗口"
 });
 
 Ext.define("Ext.locale.zh_CN.picker.Date", {

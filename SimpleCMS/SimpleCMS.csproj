@@ -167,7 +167,13 @@
     <Content Include="Sencha\.sencha\workspace\plugin.xml" />
     <Content Include="Sencha\app.js" />
     <Content Include="Sencha\app\Application.js" />
+    <Content Include="Sencha\app\locale\Locale.js" />
+    <Content Include="Sencha\app\locale\ZH_CN.js" />
     <Content Include="Sencha\app\store\Personnel.js" />
+    <Content Include="Sencha\app\util\Config.js" />
+    <Content Include="Sencha\app\util\State.js" />
+    <Content Include="Sencha\app\util\Url.js" />
+    <Content Include="Sencha\app\ux\form\field\VType.js" />
     <Content Include="Sencha\app\view\main\List.js" />
     <Content Include="Sencha\app\view\main\Main.js" />
     <Content Include="Sencha\app\view\main\MainController.js" />
@@ -6365,6 +6371,7 @@
     <Content Include="Sencha\ext\sass\etc\extensions.js" />
     <Content Include="Sencha\ext\sass\example\fashion.html" />
     <Content Include="Sencha\index.html" />
+    <Content Include="Sencha\overrides\util\Sorter.js" />
     <Content Include="Sencha\sass\example\bootstrap.css" />
     <Content Include="Sencha\sass\example\bootstrap.js" />
     <Content Include="Sencha\sass\example\custom.js" />
@@ -6378,6 +6385,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -6393,6 +6401,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Media.cs" />
     <Compile Include="Models\Tag.cs" />
+    <Compile Include="Models\UserProfile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -8218,18 +8227,11 @@
     <Content Include="Sencha\sass\src\view\main\Main.scss" />
     <Content Include="Sencha\sass\var\all.scss" />
     <Content Include="Sencha\workspace.json" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Sencha\build\production\SimpleCMS\archive\" />
     <Folder Include="Sencha\build\production\SimpleCMS\deltas\" />
-    <Folder Include="Sencha\overrides\" />
     <Folder Include="Sencha\packages\" />
   </ItemGroup>
   <ItemGroup>

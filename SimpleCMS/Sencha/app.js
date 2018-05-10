@@ -9,6 +9,10 @@ Ext.application({
     extend: 'SimpleCMS.Application',
 
     requires: [
+        'Overrides.*',
+        'SimpleCMS.locale.Locale',
+        'SimpleCMS.locale.zh_CN',
+        'SimpleCMS.ux.*',
         'SimpleCMS.view.main.Main'
     ],
 

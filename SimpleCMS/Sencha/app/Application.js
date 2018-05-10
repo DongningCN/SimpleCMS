@@ -14,6 +14,9 @@ Ext.define('SimpleCMS.Application', {
     
     launch: function () {
         // TODO - Launch the application
+        Ext.util.Format.defaultValue = function (value, defaultValue) {
+            return Ext.isEmpty(value) ? defaultValue : value;
+        }
     },
 
     onAppUpdate: function () {
