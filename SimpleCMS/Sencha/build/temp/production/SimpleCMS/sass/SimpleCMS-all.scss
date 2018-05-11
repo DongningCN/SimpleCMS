@@ -1015,12 +1015,14 @@ $include-simplecms-locale-zh_cn: dynamic(true);;
 $include-simplecms-store-personnel: dynamic(true);;
 $include-simplecms-util-config: dynamic(false);;
 $include-simplecms-util-state: dynamic(false);;
+$include-simplecms-util-toast: dynamic(false);;
 $include-simplecms-util-url: dynamic(false);;
 $include-simplecms-ux-form-field-vtypes: dynamic(true);;
 $include-simplecms-view-main-list: dynamic(true);;
 $include-simplecms-view-main-main: dynamic(true);;
 $include-simplecms-view-main-maincontroller: dynamic(true);;
 $include-simplecms-view-main-mainmodel: dynamic(true);;
+$include-toast: dynamic(false);;
 $include-uri: dynamic(false);;
 $output-paths: ("path": "../resources");
 

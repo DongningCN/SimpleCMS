@@ -172,6 +172,7 @@
     <Content Include="Sencha\app\store\Personnel.js" />
     <Content Include="Sencha\app\util\Config.js" />
     <Content Include="Sencha\app\util\State.js" />
+    <Content Include="Sencha\app\util\Toast.js" />
     <Content Include="Sencha\app\util\Url.js" />
     <Content Include="Sencha\app\ux\form\field\VType.js" />
     <Content Include="Sencha\app\view\main\List.js" />
@@ -6387,6 +6388,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\StateController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

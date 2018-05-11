@@ -45,7 +45,7 @@ namespace SimpleCMS.Models
         public DateTime? Created { get; set; }
         public DateTime? LastLogin { get; set; }
 
- //       public virtual ICollection<UserProfile> UserProfiles { get; set; }
+        public virtual ICollection<UserProfile> UserProfiles { get; set; }
     }
 
     public class ApplicationUserStore :

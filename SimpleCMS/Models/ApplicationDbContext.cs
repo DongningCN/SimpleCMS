@@ -27,6 +27,6 @@ namespace SimpleCMS.Models
         public DbSet<Content> Contents { get; set; }
         public DbSet<Media> Mediae { get; set; }
         public DbSet<Tag> Tags { get; set; }
- //       public DbSet<UserProfile> UserProfiles { get; set; }
+        public DbSet<UserProfile> UserProfiles { get; set; }
     }
 }
