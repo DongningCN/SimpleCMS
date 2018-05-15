@@ -12,6 +12,11 @@ Ext.application({
         'Overrides.*',
         'SimpleCMS.locale.Locale',
         'SimpleCMS.locale.zh_CN',
+        'SimpleCMS.util.Config',
+        'SimpleCMS.util.Url',
+        'SimpleCMS.util.State',
+        'SimpleCMS.util.Failed',
+        'SimpleCMS.util.Toast',
         'SimpleCMS.ux.*',
         'SimpleCMS.view.main.Main'
     ],

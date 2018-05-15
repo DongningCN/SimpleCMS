@@ -8,8 +8,13 @@ Ext.define('SimpleCMS.Application', {
     
     name: 'SimpleCMS',
 
+    requires: [
+        'SimpleCMS.locale.Locale'
+    ],
+
     stores: [
         // TODO: add global / shared stores here
+        'NavigationTree'
     ],
     
     launch: function () {
@@ -20,7 +25,7 @@ Ext.define('SimpleCMS.Application', {
     },
 
     onAppUpdate: function () {
-        Ext.Msg.confirm('Application Update', 'This application has an update, reload?',
+        Ext.Msg.confirm(I18N.ApplicationUpdate, I18N.ApplicationUpdateMsg,
             function (choice) {
                 if (choice === 'yes') {
                     window.location.reload();

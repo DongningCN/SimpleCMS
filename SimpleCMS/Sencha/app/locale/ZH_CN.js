@@ -1,4 +1,4 @@
-﻿Ext.define('SimpleCMS.locale.zh_CN', {
+﻿Ext.define('SimpleCMS.locale.zh_CN',{
     override: 'SimpleCMS.locale.Locale',
 
     statics: {
@@ -11,7 +11,7 @@
         FailedTitle: '错误信息',
         Failed404: '错误的请求地址',
         Failed500: '服务器内部错误',
-        FailedOtherCode: '错误代码：{0}<br\>响应：{1}',
+        FailedOtherCode:'错误代码：{0}<br\>响应：{1}',
 
         AppTitle: '简单的CMS系统',
         DefaultMessageTitle: '信息',
@@ -65,7 +65,7 @@
         Edit: '编辑',
         Delete: '删除',
         Details: '详细信息',
-        ShowDetails: '查看详细信息',
+        ShowDetails:'查看详细信息',
         Refresh: '刷新',
         Search: '查询',
         Cancel: '取消',

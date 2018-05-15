@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
-//using SimpleCMS.Validations;
+using SimpleCMS.Validations;
 
 namespace SimpleCMS.Models
 {
@@ -35,13 +35,13 @@ namespace SimpleCMS.Models
         [DefaultValue(1)]
         public byte Type { get; set; }
 
-  //      [Required]
- //       [DefaultDateTimeValue("Now")]
- //       public DateTime? Uploaded { get; set; }
+        [Required]
+        [DefaultDateTimeValue("Now")]
+        public DateTime? Uploaded { get; set; }
 
- //       [Required]
- //       [DefaultValue(0)]
- //       public int Size { get; set; }
+        [Required]
+        [DefaultValue(0)]
+        public int Size { get; set; }
 
     }
 
