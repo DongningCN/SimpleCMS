@@ -25,12 +25,12 @@ namespace SimpleCMS.Controllers
             {
                 return ExtJs.WriterJObject(false, errors: ExtJs.ModelStateToJObject(ModelState));
             }
-            var verifyCode = (string)Session["VerifyCode"] ?? "";
+ /*           var verifyCode = (string)Session["VerifyCode"] ?? "";
             if (string.IsNullOrEmpty(model.VerifyCode) || !string.Equals(verifyCode, model.VerifyCode, StringComparison.CurrentCultureIgnoreCase))
             {
                 return ExtJs.WriterJObject(false, errors: new JObject() { { "VerifyCode", Message.VerifyCode } });
             }
-            var user = await UserManager.FindByNameAsync(model.UserName);
+ */           var user = await UserManager.FindByNameAsync(model.UserName);
             if (user == null)
             {
                 return ExtJs.WriterJObject(false, errors: new JObject()
